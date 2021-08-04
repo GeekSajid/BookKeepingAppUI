@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 200vh;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* Header Start Here */
+header{
+  background-color: #93c47d;
+  padding: 10px 0;
+}
+header h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.bg-custom{
+  background-color: #93c47d;
+}
+.bg-custom a.navbar-brand{
+  color: #000 !important;
+  font-size: 25px;
+  font-weight: 700;
+  display: none;
+}
+#navbarsExampleDefault ul li:first-child{
+  margin-top: 30px;
+}
+
+#navbarsExampleDefault ul li a{
+  color: #000;
+  font-size: 25px;
+  border-bottom: 2px solid #000;
+}
+.navbar.fixed-left{
+  margin-top: 51px;
+}
+/* Header End Here */
+
+/* Content Start Here */
+.year-dropdown{
+  margin-top: 100px;
+}
+.year-dropdown .dropdown-menu{
+  min-width: 8rem !important;
+  padding: 0 !important;
+}
+.year-dropdown .dropdown-divider{
+  margin: 0 !important;
+}
+.table-design table thead tr th, tbody tr th{
+  text-align: center;
+}
+.slim-gray{
+  background-color: #f2f2f2;
+}
+.dark-gray{
+  background-color: #d9d9d9;
+  text-align: right;
+}
+.table thead th, .table-bordered td, .table-bordered th{
+  border-color: #000 !important;
+}
+.thin-red{
+  background-color: #fff2cc;
+}
+/* Content End Here */
+
+@media (max-width: 575.98px) {
+  .bg-custom a.navbar-brand{
+    display: block;
+  }
+  header{
+    display: none;
+  }
+  .navbar.fixed-left {
+    margin-top: 0;
+    padding: 20px;
+  }
+  .year-dropdown {
+    margin-top: 50px;
+  }
+  .navbar-dark .navbar-toggler{
+    border-color: #000 !important;
+  }
+}
